@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1015978005145",
+    "firebase_url": "https://whispers-2dd1e.firebaseio.com",
+    "project_id": "whispers-2dd1e",
+    "storage_bucket": "whispers-2dd1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015978005145:android:c234f6af2fdac9c4",
+        "android_client_info": {
+          "package_name": "eu.weareus.whispers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015978005145-gkhlp7omu8heshq01cbvctce9rl5g05m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.weareus.whispers",
+            "certificate_hash": "bcfc23e445c13c92033bb0e910f056d7685de371"
+          }
+        },
+        {
+          "client_id": "1015978005145-q63ip0gfqj9udsp94cfgrb9a7fas6jld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBu3qEXi3ZEo6z0-hE2eI8EDDbhl8JL2E8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015978005145-q63ip0gfqj9udsp94cfgrb9a7fas6jld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
