@@ -84,6 +84,7 @@ class MainActivity : AppCompatActivity(), HasComponent<ActivityComponent> {
                         .createSignInIntentBuilder()
                         .setAvailableProviders(providers)
                         .setTheme(R.style.LoginTheme)
+                        .setLogo(R.mipmap.ic_launcher)
                         .build(),
                 RC_SIGN_IN)
     }
@@ -127,8 +128,7 @@ class MainActivity : AppCompatActivity(), HasComponent<ActivityComponent> {
                 // Successfully signed in
                 val user = FirebaseAuth.getInstance().getCurrentUser()
                 if(user!=null)
-                    Log.d("MainActivity", user.email);
-                (router.getTopController() as MainController).loggedIn()
+                    (router.getTopController() as MainController).loggedIn()
             }
             else
             {

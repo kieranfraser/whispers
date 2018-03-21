@@ -3,7 +3,6 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 
 apply from: '../config/quality/quality.gradle'
-apply from: 'versioning.gradle'
 apply from: 'output.gradle'
 
 android {
@@ -20,7 +19,7 @@ android {
 
         multiDexEnabled true
 
-        versionCode buildVersionCode()
+        versionCode 1
         versionName appVersion
     }
 
